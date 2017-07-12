@@ -3,6 +3,24 @@
     "name": "Dark+ (default dark)",
     "include": "./dark_vs.json",
     "tokenColors": [
+	{
+            "name": "Ligatures Operators",
+            "scope": [
+                "keyword.operator"
+            ],
+            "settings": {
+                "foreground": "#bbbbbb"
+            }
+        },
+	{
+            "name": "Ligatures Arraw",
+            "scope": [
+                "storage.type.function.arrow"
+            ],
+            "settings": {
+                "foreground": "#bbbbbb"
+            }
+        },
         {
             "name": "Function declarations",
             "scope": [
